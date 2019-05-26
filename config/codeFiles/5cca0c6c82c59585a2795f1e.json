@@ -4,7 +4,14 @@
   "testFixture": false,
   "stageContainerId": "5cc8b0e5cefb1b6101cc84fb",
   "codeStageIds": [
-    "5cca0c6c82c59585a2795f1c"
+    "5cca0c6c82c59585a2795f1c",
+    "5ccca0e0233b73bd679668a4",
+    "5ccb31b982c59585a2795f20",
+    "5cd08e5014970f8e96844b8f",
+    "5cd87522326da71856e8260f",
+    "5cd873a6326da71856e8260b",
+    "5cd09c9c14970f8e96844b93",
+    "5cc8b3c8cefb1b6101cc84fc"
   ],
   "id": "5cca0c6c82c59585a2795f1e",
   "initialCode": "$$LOOKUP",

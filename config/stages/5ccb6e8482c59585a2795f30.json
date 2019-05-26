@@ -9,6 +9,8 @@
   "language": "solidity",
   "languageVersion": "0.4.19",
   "testFramework": "truffle_with_mocha",
+  "validatedContract": "ERC20",
+  "validatedFileId": "5cca0c6c82c59585a2795f1e",
   "codeFileIds": [
     "5ccb6e8482c59585a2795f31",
     "5ccb6e8482c59585a2795f32"

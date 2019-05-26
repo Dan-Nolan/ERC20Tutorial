@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 contract ERC20 {
     mapping (address => uint256) public balances;
 
-    //TODO: Declare allowance mapping
+    mapping (address => mapping (address => uint256)) public allowed;
     
     uint256 public totalSupply;
     string public name;
@@ -34,5 +34,12 @@ contract ERC20 {
         return balances[_owner];
     }
 
-    // TODO: Implement approve & and allowance methods
+     function approve(address _spender, uint256 _value) public returns (bool success) {
+        allowed[msg.sender][_spender] = _value;
+        return true;
+    }
+
+    function allowance(address _owner, address _spender) public view returns (uint256 remaining) {
+        return allowed[_owner][_spender];
+    }
 }

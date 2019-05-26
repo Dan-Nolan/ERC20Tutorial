@@ -9,10 +9,12 @@
   "language": "solidity",
   "languageVersion": "0.5.0",
   "testFramework": "truffle_with_mocha",
+  "validatedContract": "ERC20",
+  "validatedFileId": "5cca0c6c82c59585a2795f1e",
   "codeFileIds": [
     "5cc8b3c8cefb1b6101cc84fe",
-    "5ccb56f482c59585a2795f27",
-    "5cca0c6c82c59585a2795f1d"
+    "5cca0c6c82c59585a2795f1d",
+    "5cca0c6c82c59585a2795f1e"
   ],
   "position": 7,
   "youtubeId": null,
